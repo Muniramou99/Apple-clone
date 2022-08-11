@@ -1,0 +1,841 @@
+body
+{
+	margin:0;
+	padding:0;
+	background:#000;
+}
+@media screen and (max-width: 750px) and (min-width: 401px)
+{
+	body
+{
+	margin:0;
+	background:green;
+}
+nav{
+	margin:0;
+	height:50px;
+	background-color:black;
+	width:211.5%;
+	}
+	nav ul{
+		list-style:none;
+		padding-left:0;
+		Display:flex;
+		justify-content:space-around;
+		
+	}
+	nav li:hover{
+		background-color:red;
+		font-size:15px;
+		
+	}
+	nav a{
+		text-decoration:none;
+		color:white;
+		display:block;
+		padding:0 10px;
+		margin:10px 10px 10px 10px;
+		
+	}
+	
+	nav input[type=text]{
+		float: left;
+        padding: 4px;
+        border: none;
+        margin-top: 8px;
+        margin-right: 6px;
+        font-size: 7px;
+		background-color:black;
+		color:white;
+		
+	}
+#h4{
+	height:50px;
+	padding:8px;
+	background-color:red;
+	text-align:center;
+	width:212%;
+	
+	
+}
+#h4 a{
+	color:black;
+	font-size:15px;
+	font-style:bold;
+	
+	}
+#h p{
+	font-size:15px;
+	text-align:center;
+}
+#h a{
+	font-size:10px;
+	text-align:center;
+	color:blue;
+}
+#h{
+	height:50px;
+	background-color:#DC143C;
+	color:black;
+	font-size:15px;
+	text-align:center;
+	width:212%;
+}
+
+#shoppingBag {
+      width: 10px;
+      height: 20px;
+      display: inline-block;
+      position:relative;
+	  bottom:9px;
+	  background: url("http://www.apple.com/ac/globalnav/3/en_US/images/globalnav/bag/image_large.svg");
+      background-repeat: no-repeat;
+      background-size: 16px 44px;
+      background-position: center center; }
+#searchIcon {
+      width: 10px;
+      height: 24px;
+      display: inline-block;
+      background: url("http://www.apple.com/ac/globalnav/3/en_US/images/globalnav/search/image_large.svg");
+      background-repeat: no-repeat;
+      background-size: 16px 44px;
+      background-position: center center; }
+
+
+.container{
+	width:180%;
+	height:1500px;
+	position:relative;
+}
+.container .img5 img{
+	width:300px;
+	height:300px;
+}
+.container .img4 img{
+	width:250px;
+	height:250px;
+}
+.container .img6 img{
+	width:200px;
+	height:200px;
+}
+.container .img7 img{
+	width:200px;
+	height:450px;
+}
+.container img 
+{
+	width:100px;
+	height:100px;
+	border:none;
+	border-radius:14px;
+}
+
+.container .img1 
+{
+	position:absolute;
+	right:10%;
+	top:30%;
+}
+.container .img2 
+{
+	position:absolute;
+	left:10%;
+	top:20%;
+}
+.container .img3 
+{
+	position:absolute;
+	right:2%;
+	bottom:30%;
+}
+.container .img4 
+{
+	position:absolute;
+	left:3%;
+	bottom:30%;
+}
+.container .img5 
+{
+	position:absolute;
+	left:37%;
+	top:10%;
+}
+.container .img6 
+{
+	position:absolute;
+	left:37%;
+	bottom:0;
+}
+.container .img7 
+{
+	position:absolute;
+	left:43%;
+	top:40%;
+}
+.container .wwdc .textbig{
+	font-size:60px;
+}
+.container .wwdc {
+	position:absolute;
+	top:40%;
+	left:43%;
+	color:white;
+	font-size:23px;
+	font-weight:700;
+	
+}
+#paragraph p{
+	    font-size: 30px;
+		color:white;
+		padding:5% 10%;
+	    text-align:center;
+		font-style:bold;
+		font-weight:700;
+		
+	}	
+#ios p{
+	    font-size: 70px;
+		color:white;
+	    text-align:center;
+		font-style:bold;
+		font-weight:700;
+}
+#ioss{
+	display:flex;
+	justify-content:space-between;
+}
+#ioss img{
+	position:relative;
+	left:5%;
+	width:300px;
+	height:370px;
+}	
+#ioss #I p{
+	    font-size: 30px;
+		color:white;
+	    position:relative;
+padding:10% 25%;		
+	    text-align:center;
+		font-style:bold;
+		font-weight:700;
+}
+
+#iPados p{
+	    font-size: 70px;
+		color:white;
+	    text-align:center;
+		font-style:bold;
+		font-weight:700;
+}
+#iPadoss{
+	display:flex;
+	justify-content:space-between;
+}
+#iPadoss img{
+	position:relative;
+	left:5%;
+	width:600px;
+	height:300px;
+}	
+#iPadoss #P p{
+	    font-size: 30px;
+		color:white;
+	    position:relative;
+		padding:10% 25%;
+	    text-align:center;
+		font-style:bold;
+		font-weight:700;
+}	
+#macOS p{
+	    font-size: 70px;
+		color:white;
+	    position:relative;
+		padding:10% 15%;
+	    text-align:center;
+		font-style:bold;
+		font-weight:700;
+}
+#macOSS{
+	display:flex;
+	justify-content:space-between;
+}
+
+#macOSS img{
+ position:relative;
+ left:5%;
+	width:600px;
+	height:400px;
+}
+#macOSS #K p{
+	    font-size: 30px;
+		color:white;
+	   position:relative;
+	   padding:10% 25%;
+	    text-align:center;
+		font-style:bold;
+		font-weight:700;
+}
+
+
+	
+#watchOS p{
+	    font-size: 70px;
+		color:white;
+	    position:relative;
+		padding:10% 15%;
+	    text-align:center;
+		font-style:bold;
+		font-weight:700;
+}
+#watchOSS{
+	display:flex;
+	justify-content:space-between;
+}
+#watchOSS img{
+	position:relative;
+	left:5%;
+	width:600px;
+	height:600px;
+}
+#watchOSS #L p{
+	    font-size: 30px;
+		color:white;
+	    position:relative;
+		padding:10% 25%;
+	    text-align:center;
+		font-style:bold;
+		font-weight:700;
+}
+
+
+.container2 button {
+  background-color:#DC143C ; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border:none;
+  border-radius:10px;
+  font-size: 16px;
+  position: relative;
+  left:37%;
+}
+
+footer{
+	padding:10%;
+	background-color:#DC143C;
+	width:200%
+}	
+.footerr{
+	display:flex;
+	justify-content:space-between;
+	margin:0;
+	font-size: 20px;
+	color:white;
+}
+#list1 ul{
+	list-style:none;
+}
+#list1 a{
+	font-size:12px;
+	color:black;
+}
+#list1 p{
+     margin-left:30px;
+	color:white;
+}
+
+
+#list2 ul{
+	list-style:none;
+}
+#list2 a{
+	font-size:12px;
+	color:black;
+}
+
+#list2 p{
+     margin-left:30px;
+	color:white;
+}
+
+
+
+#list3 ul{
+	list-style:none;
+}
+#list3 a{
+	font-size:12px;
+	color:black;
+}
+#list3 p{
+     margin-left:30px;
+	color:white;
+}
+
+
+#list4 ul{
+	list-style:none;
+}
+#list4 a{
+	font-size:12px;
+	color:black;
+}
+#list4 p{
+     margin-left:30px;
+	color:white;
+}
+
+
+#list5 ul{
+	list-style:none;
+}
+#list5 a{
+	font-size:12px;
+	color:black;
+}
+#list5 p{
+     margin-left:30px;
+	color:white;
+}
+#last {
+	font-size:20px;
+	color:white;
+}
+#last a {
+	font-size:20px;
+	color:black;
+}
+hr.new1 {
+  border: 1px solid black;
+}
+#last2 {
+	font-size:20px;
+	color:white;
+}
+#last2 a {
+	font-size:20px;
+	color:black;
+}
+
+}
+
+@media screen and (min-width: 750px)
+{
+nav{
+	height:50px;
+	background-color:black;
+	width:100%
+	
+	}
+	nav ul{
+		list-style:none;
+		padding-left:0;
+		Display:flex;
+		justify-content:space-around;
+		
+	}
+	
+	nav li:hover{
+		background-color:red;
+		font-size:10px;
+		
+	}
+	nav a{
+		text-decoration:none;
+		color:white;
+		display:block;
+		padding:0 10px;
+		margin:10px 10px 10px 10px;
+		
+	}
+	
+	nav input[type=text]{
+		float: left;
+        padding: 4px;
+        border: none;
+        margin-top: 8px;
+        margin-right: 16px;
+        font-size: 17px;
+		background-color:black;
+		color:white;
+		
+	}
+#h4{
+	width:100%;
+	margin:0;
+	height:50px;
+	padding:8px;
+	background-color:red;
+	text-align:center;
+	
+}
+#h4 a{
+	color:black;
+	font-size:15px;
+	font-style:bold;
+	
+	}
+
+#h{
+	margin:0;
+	width:100%;
+	height:50px;
+	background-color:#DC143C;
+	color:black;
+	font-size:15px;
+	text-align:center;
+}
+#h p{
+	font-size:15px;
+	text-align:center;
+}
+#h a{
+	font-size:15px;
+	text-align:center;
+	color:blue;
+}
+
+#shoppingBag {
+      width: 20px;
+      height: 44px;
+      display: inline-block;
+      position:relative;
+	  bottom:9px;
+	  background: url("http://www.apple.com/ac/globalnav/3/en_US/images/globalnav/bag/image_large.svg");
+      background-repeat: no-repeat;
+      background-size: 16px 44px;
+      background-position: center center; }
+#searchIcon {
+      width: 20px;
+      height: 44px;
+      display: inline-block;
+      background: url("http://www.apple.com/ac/globalnav/3/en_US/images/globalnav/search/image_large.svg");
+      background-repeat: no-repeat;
+      background-size: 16px 44px;
+      background-position: center center; }
+
+
+.container{
+	width:100%;
+	height:1500px;
+	
+	position:relative;
+}
+.container .img5 img{
+	width:400px;
+	height:400px;
+}
+.container .img4 img{
+	width:350px;
+	height:350px;
+}
+.container .img6 img{
+	width:300px;
+	height:300px;
+}
+.container .img7 img{
+	width:400px;
+	height:550px;
+}
+.container img 
+{
+	width:200px;
+	height:200px;
+	border:none;
+	border-radius:14px;
+}
+
+.container .img1 
+{
+	position:absolute;
+	right:10%;
+	top:30%;
+}
+.container .img2 
+{
+	position:absolute;
+	left:10%;
+	top:20%;
+}
+.container .img3 
+{
+	position:absolute;
+	right:5%;
+	bottom:30%;
+}
+.container .img4 
+{
+	position:absolute;
+	left:3%;
+	bottom:30%;
+}
+.container .img5 
+{
+	position:absolute;
+	left:37%;
+	top:10%;
+}
+.container .img6 
+{
+	position:absolute;
+	left:37%;
+	bottom:0;
+}
+.container .img7 
+{
+	position:absolute;
+	left:43%;
+	top:40%;
+}
+.container .wwdc .textbig{
+	font-size:60px;
+}
+.container .wwdc {
+	position:absolute;
+	top:40%;
+	left:43%;
+	color:white;
+	font-size:23px;
+	font-weight:700;
+	
+}
+#paragraph p{
+	    font-size: 30px;
+		color:white;
+		padding:10% 20%;
+	    text-align:center;
+		font-style:bold;
+		font-weight:700;
+		
+	}	
+#ios p{
+	    font-size: 70px;
+		color:white;
+	    text-align:center;
+		font-style:bold;
+		font-weight:700;
+}
+#ioss{
+	display:flex;
+	justify-content:space-between;
+}
+#ioss img{
+	position:relative;
+	left:5%;
+	width:300px;
+	height:370px;
+}	
+#ioss #I p{
+	    font-size: 30px;
+		color:white;
+	    position:relative;
+padding:10% 25%;		
+	    text-align:center;
+		font-style:bold;
+		font-weight:700;
+}
+
+#iPados p{
+	    font-size: 70px;
+		color:white;
+	    text-align:center;
+		font-style:bold;
+		font-weight:700;
+}
+#iPadoss{
+	display:flex;
+	justify-content:space-between;
+}
+#iPadoss img{
+	position:relative;
+	left:5%;
+	width:600px;
+	height:300px;
+}	
+#iPadoss #P p{
+	    font-size: 30px;
+		color:white;
+	    position:relative;
+		padding:10% 25%;
+	    text-align:center;
+		font-style:bold;
+		font-weight:700;
+}	
+#macOS p{
+	    font-size: 70px;
+		color:white;
+	    position:relative;
+		padding:10% 15%;
+	    text-align:center;
+		font-style:bold;
+		font-weight:700;
+}
+#macOSS{
+	display:flex;
+	justify-content:space-between;
+}
+
+#macOSS img{
+ position:relative;
+ left:5%;
+	width:600px;
+	height:400px;
+}
+#macOSS #K p{
+	    font-size: 30px;
+		color:white;
+	   position:relative;
+	   padding:10% 25%;
+	    text-align:center;
+		font-style:bold;
+		font-weight:700;
+}
+
+
+	
+#watchOS p{
+	    font-size: 70px;
+		color:white;
+	    position:relative;
+		padding:10% 15%;
+	    text-align:center;
+		font-style:bold;
+		font-weight:700;
+}
+#watchOSS{
+	display:flex;
+	justify-content:space-between;
+}
+#watchOSS img{
+	position:relative;
+	left:5%;
+	width:600px;
+	height:600px;
+}
+#watchOSS #L p{
+	    font-size: 30px;
+		color:white;
+	    position:relative;
+		padding:10% 25%;
+	    text-align:center;
+		font-style:bold;
+		font-weight:700;
+}
+
+
+.container2 button {
+  background-color:#DC143C ; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border:none;
+  border-radius:10px;
+  font-size: 16px;
+  position: relative;
+  left:37%;
+}
+
+footer{
+	padding:7%;
+	background-color:#DC143C;
+}	
+.footerr{
+	Display:flex;
+	justify-content:space-between;
+	margin:0;
+	font-size: 20px;
+	color:white;
+}
+#list1 ul{
+	list-style:none;
+}
+#list1 a{
+	font-size:12px;
+	color:black;
+}
+#list1 p{
+     margin-left:30px;
+	color:white;
+}
+
+
+#list2 ul{
+	list-style:none;
+}
+#list2 a{
+	font-size:12px;
+	color:black;
+}
+
+#list2 p{
+     margin-left:30px;
+	color:white;
+}
+
+
+
+#list3 ul{
+	list-style:none;
+}
+#list3 a{
+	font-size:12px;
+	color:black;
+}
+#list3 p{
+     margin-left:30px;
+	color:white;
+}
+
+
+#list4 ul{
+	list-style:none;
+}
+#list4 a{
+	font-size:12px;
+	color:black;
+}
+#list4 p{
+     margin-left:30px;
+	color:white;
+}
+
+
+#list5 ul{
+	list-style:none;
+}
+#list5 a{
+	font-size:12px;
+	color:black;
+}
+#list5 p{
+     margin-left:30px;
+	color:white;
+}
+#last {
+	font-size:20px;
+	color:white;
+}
+#last a {
+	font-size:20px;
+	color:black;
+}
+hr.new1 {
+  border: 1px solid black;
+}
+#last2 {
+	font-size:20px;
+	color:white;
+}
+#last2 a {
+	font-size:20px;
+	color:black;
+}
+}
+
